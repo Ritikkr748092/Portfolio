@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+nav {
+    background: #333;
+    color: #fff;
+    padding: 2rem 2rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    color:blue;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #0077b5; /* Change text color */
+    background: #c71c1c; /* Change background color */
+    border-radius: 5px; /* Add rounded corners */
+    transform: scale(1.1); /* Slightly increase size */
+}
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+h1, h2, h3 {
+    color: #333;
+}
+#home {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+#about {
+    padding: 2rem;
+    background: #f9f9f9; /* Light background for the section */
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+#about h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    color: #555;
+    line-height: 1.8;
+}
+
+.education-details {
+    margin-top: 1.5rem;
+}
+
+.education-item {
+    background: #fff;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.education-item h4 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.education-item .institution {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.education-item .performance {
+    color: #444;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+.project {
+    background: #e2e2e2;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+/* Skills Section */
+#coding-profiles {
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+#coding-profiles h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.profile {
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.profile:hover {
+    transform: translateY(-5px);
+}
+
+.profile a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.profile i {
+    font-size: 1.5rem;
+    color: #0077b5; /* Customize icon color */
+}
+
+.profile span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+/* Contact Section */
+#contact {
+    background: #f4f4f4;
+    text-align: center;
+}
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
